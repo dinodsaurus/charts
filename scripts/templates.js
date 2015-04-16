@@ -1,0 +1,1 @@
+angular.module("templates",[]).run(["$templateCache",function(n){n.put("main/views/home.html",'<div class="hero-unit">\n  <div dropdown-select="main.ddOptions"\n      dropdown-model="main.ddSelected"\n      dropdown-item-label="text"\n      dropdown-onchange="main.newData()"\n       >\n  </div>\n  <nvd3 options=\'main.d3Options\' data=\'main.d3Data\'></nvd3>\n</div>\n')}]);
