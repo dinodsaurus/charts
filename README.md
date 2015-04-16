@@ -8,4 +8,4 @@
 * install dependencies `npm install && bower install`
 * serve the project `gulp serve`
 
-### You can view the project [here](dinodsaurus.github.io/charts)
+### You can view the project [here](http://dinodsaurus.github.io/charts)
