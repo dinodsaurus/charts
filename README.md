@@ -1,7 +1,7 @@
 #Angular charts
 ### Libraries used
 * [Angular nvd3](http://krispo.github.io/angular-nvd3/)
-* [Angular dropdowns]()
+* [Angular dropdowns](https://github.com/jseppi/angular-dropdowns)
 
 ### Instalation
 * clone the project `git clone https://github.com/dinodsaurus/charts`
