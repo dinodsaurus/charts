@@ -67,10 +67,10 @@ angular.module("chart")
   }];
   this.newData = function () {
     var val = this.d3Data[0].values;
-    val.forEach( ele => {
+    val.forEach( function(ele) {
       ele.value = Math.floor((Math.random() * 100) + 1);
     });
-    //sort the arrey of objects
+    //sort the array of objects
     val.sort(function (a, b) {
       if (a.value > b.value) {
         return -1;
